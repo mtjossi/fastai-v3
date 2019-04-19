@@ -1,7 +1,8 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+Still a work in progress...
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+Upload an image of a chest x-ray, and see if that person has pneumonia!
+(still only a pneumonia classifier for now...)
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+
+GO to https://pneumoni-nah.onrender.com/ to try it out!
