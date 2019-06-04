@@ -9,11 +9,12 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-# old: export_file_url = 'https://drive.google.com/uc?export=download&id=18xuyOzhzQr0d-bUQkT6wLokpTu24E3HV'
 
+export_file_url = 'https://drive.google.com/uc?export=download&id=18xuyOzhzQr0d-bUQkT6wLokpTu24E3HV'
+export_file_name = 'xray_pneu.pkl'
 # newly trained
-export_file_url = 'https://drive.google.com/uc?export=download&id=1a0k4OKQu2VI2veX7vHr7NJu0HX3HzMsC'
-export_file_name = 'xray_pneu_4Jun19.pkl'
+# export_file_url = 'https://drive.google.com/uc?export=download&id=1a0k4OKQu2VI2veX7vHr7NJu0HX3HzMsC'
+# export_file_name = 'xray_pneu_4Jun19.pkl'
 
 classes = ['NORMAL', 'PNEUMONIA']
 path = Path(__file__).parent
